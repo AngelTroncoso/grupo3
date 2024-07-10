@@ -14,6 +14,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="Asset/css/style.css">
+
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -51,28 +53,26 @@
   <!-- Header -->
 
   <div class="container">
-    <div class="row">
-
-      <div class="col-md-6 my-3">
-        <img class="imagen"src="./Asset/img/principal.jpg" alt="BIG HEROO">
-      </div>
-
-      <div class="col-md-6 my-3">
-        <h1>PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
-        <hr>
-        <p>110 MIN / 6 A 8 PORCIONES</p>
-        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip1" data-bs-placement="bottom"
-          data-bs-title="Presiona para enviar a tu correo">
-          Enviar por correo
-        </button>
-
-        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip2" data-bs-placement="right"
-          data-bs-title="Agrega esta receta a tus favoritos">
-          Añadir a favoritos
-        </button>
-      </div>
+    <div class="row align-items-center">
+        <div class="col-md-6 my-3">
+            <img class="imagen" src="./Asset/img/principal.jpg" alt="BIG HEROO">
+        </div>
+        <div class="col-md-6 my-3">
+            <h1>PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
+            <hr>
+            <p>110 MIN / 6 A 8 PORCIONES</p>
+            <button type="button" class="btn btn-secondary me-2" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="Presiona para enviar a tu correo">
+                Enviar por correo
+            </button>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right"
+                title="Agrega esta receta a tus favoritos">
+                Añadir a favoritos
+            </button>
+        </div>
     </div>
-  </div>
+</div>
+
 
   <section class="container d-none d-sm-block">
     <div id="carouselExampleIndicators" class="carousel slide">
