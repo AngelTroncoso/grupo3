@@ -43,7 +43,15 @@ footer h1 {
     margin-top: 10px;
 }
 
+
 /* Tooltip Styles */
 [data-bs-toggle="tooltip"] {
     cursor: pointer;
 }
+
+nav h1 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400 700;
+    font-style: normal;
+  }
+
