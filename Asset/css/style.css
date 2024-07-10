@@ -35,3 +35,8 @@ footer h1{
     cursor: pointer;
     margin-top: 10px;
 }
+nav h1 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400 700;
+    font-style: normal;
+  }
